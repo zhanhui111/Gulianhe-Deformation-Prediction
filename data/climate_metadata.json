@@ -1,0 +1,50 @@
+{
+  "latitude": 53.0,
+  "longitude": 122.0,
+  "generationtime_ms": 35.617947578430176,
+  "utc_offset_seconds": 28800,
+  "timezone": "Asia/Shanghai",
+  "timezone_abbreviation": "GMT+8",
+  "elevation": 612.0,
+  "hourly_units": {
+    "time": "iso8601",
+    "snow_depth": "m"
+  },
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_mean": "°C",
+    "temperature_2m_min": "°C",
+    "temperature_2m_max": "°C"
+  },
+  "request": {
+    "latitude": 53.015,
+    "longitude": 121.97,
+    "start_date": "2017-10-01",
+    "end_date": "2021-12-31",
+    "daily": "temperature_2m_mean,temperature_2m_min,temperature_2m_max",
+    "hourly": "snow_depth",
+    "models": "era5_land",
+    "elevation": "nan",
+    "timezone": "Asia/Shanghai"
+  },
+  "url": "https://archive-api.open-meteo.com/v1/archive?latitude=53.015&longitude=121.97&start_date=2017-10-01&end_date=2021-12-31&daily=temperature_2m_mean%2Ctemperature_2m_min%2Ctemperature_2m_max&hourly=snow_depth&models=era5_land&elevation=nan&timezone=Asia%2FShanghai",
+  "response_sha256": "73ef87509e2329a62b4516106f6543e1af41d9c06c6461f86bbdb02c8044e2ee",
+  "retrieved_utc": "2026-11-02T03:11:03.646733+00:00",
+  "precipitation_source": {
+    "product": "ERA5",
+    "request": {
+      "latitude": 53.015,
+      "longitude": 121.97,
+      "start_date": "2017-10-01",
+      "end_date": "2021-12-31",
+      "daily": "precipitation_sum,snowfall_sum",
+      "models": "era5",
+      "elevation": "nan",
+      "timezone": "Asia/Shanghai"
+    },
+    "url": "https://archive-api.open-meteo.com/v1/archive?latitude=53.015&longitude=121.97&start_date=2017-10-01&end_date=2021-12-31&daily=precipitation_sum%2Csnowfall_sum&models=era5&elevation=nan&timezone=Asia%2FShanghai",
+    "response_sha256": "aee6144a16891ac580b7ef308f79bf1a841fb3b07524a5abaedf43cbf4af6877"
+  },
+  "elevation_policy": "elevation=nan disables API lapse adjustment. Point adjustment applied once using -0.0065 K/m.",
+  "limitation": "Single coarse grid; elevation correction does not create measured subgrid climate information."
+}
