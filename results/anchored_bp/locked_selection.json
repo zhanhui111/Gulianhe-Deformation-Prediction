@@ -1,0 +1,17 @@
+{
+  "hidden": 16,
+  "steps": 60,
+  "shrink_alpha": 0.3538884903801936,
+  "maturity_weight": "min(training_label_span_days/365,1)^4; weights downweight immature historical fits compared with the >1-year final training set",
+  "primary": "Shrink Anchored GA-PSO-BP",
+  "source_sha256": {
+    "src\\anchored_bp.py": "57629db19eca8ef000ad8390f7e90e7b5c48387a2d7d969cfc5174ab61b91095",
+    "src\\multihorizon.py": "24a885d5cb43e889a75efee32206949220369c894b0b4a73a0f47c1cde4eab3c",
+    "src\\improvement.py": "568b0d1ddb27b974b36ed6aa2cc243137dab4b63230ce3c494cf40c671a4c071",
+    "src\\core.py": "1623f54c39acb9a2b48224c1d816a8eb7e27fea488966fb24eec72d2463a135e",
+    "src\\models.py": "a0d537e190f244c2c9f758ada2a0a05b28835fb315a9ada922e332d33be0ff2b",
+    "data\\points_base.csv": "ec808fbd8165820e8591336b7a5564cc6747c2f6f44824756938166b18da4515",
+    "data\\climate_daily.csv": "a9c1e6022d63c97a74dd145186ce6543462cea93e8a65fe8a3b0624ec66a0998",
+    "data\\climate_metadata.json": "b2ef197d5a4044cb32890c392af34c456fe729a387859fd7ef5f899c047e1816"
+  }
+}
