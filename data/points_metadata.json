@@ -1,0 +1,110 @@
+{
+  "source": "data/sources/ESBAS05pro.dbf",
+  "source_sha256": "63a9c31637c84c664b1dbb26c9c02343bea494c9d9ae94727648ba1bafbd0308",
+  "source_product": "ESBAS05pro.dbf",
+  "source_records": 17255,
+  "rows": 12055,
+  "epochs": [
+    "D_20190312",
+    "D_20190405",
+    "D_20190511",
+    "D_20190604",
+    "D_20190710",
+    "D_20190803",
+    "D_20190827",
+    "D_20191002",
+    "D_20191107",
+    "D_20191201",
+    "D_20200106",
+    "D_20200211",
+    "D_20200306",
+    "D_20200411",
+    "D_20200505",
+    "D_20200610",
+    "D_20200704",
+    "D_20200809",
+    "D_20200902",
+    "D_20201008",
+    "D_20201101",
+    "D_20201207",
+    "D_20210124",
+    "D_20210217",
+    "D_20210301",
+    "D_20210418",
+    "D_20210524",
+    "D_20210617",
+    "D_20210723",
+    "D_20210816",
+    "D_20210921",
+    "D_20211015",
+    "D_20211120",
+    "D_20211214"
+  ],
+  "selection": "All native source points in the common valid mask of the five original clipped terrain rasters; no target-based filtering.",
+  "unique_coordinates": 12055,
+  "terrain": {
+    "elev": {
+      "file": "data/sources/elev.tif",
+      "sha256": "a07996636fdcf744ff15753d8c556bf4036ebfff49d3db6a78093642b0005012",
+      "crs": "EPSG:32651",
+      "sampling": "nearest native pixel",
+      "pixel_m": [
+        12.487444705444144,
+        12.494205492274272
+      ]
+    },
+    "slope": {
+      "file": "data/sources/slope.tif",
+      "sha256": "91c0938d7dcd9a6e0edb8059f6210c826f03021abfa7ff225e71a41f4c650c7f",
+      "crs": "EPSG:32651",
+      "sampling": "nearest native pixel",
+      "pixel_m": [
+        12.487444705444144,
+        12.494205492274272
+      ]
+    },
+    "aspect": {
+      "file": "data/sources/aspect.tif",
+      "sha256": "f4b22d5cce3d7bdefeac1db82705c68d0451d2f024a88ecb5f69ad53058680d4",
+      "crs": "EPSG:32651",
+      "sampling": "nearest native pixel",
+      "pixel_m": [
+        12.487444705444144,
+        12.494205492274272
+      ]
+    },
+    "rough": {
+      "file": "data/sources/rough.tif",
+      "sha256": "9896e1bc07663212be35547212865cdd4241e665782cd555bd8c809dcc1f9e0c",
+      "crs": "EPSG:32651",
+      "sampling": "nearest native pixel",
+      "pixel_m": [
+        12.487444705444144,
+        12.494205492274272
+      ]
+    },
+    "relief": {
+      "file": "data/sources/relief.tif",
+      "sha256": "2127d72ebd558ae56e5e73d967d87029b9be2bb03206fdc7fa4ce55d6ac968fc",
+      "crs": "EPSG:32651",
+      "sampling": "nearest native pixel",
+      "pixel_m": [
+        12.487444705444144,
+        12.494205492274272
+      ]
+    },
+    "curvature": {
+      "file": "data/sources/curvature.tif",
+      "sha256": "6b66d94fec58208309c34131affa1eb7cf66a2237030b95d11ea3b0bc547eb14",
+      "crs": "EPSG:32651",
+      "sampling": "nearest native pixel",
+      "pixel_m": [
+        12.487444705444144,
+        12.494205492274272
+      ]
+    }
+  },
+  "date_status": "34 acquisition-date fields taken directly from the ESBAS product.",
+  "legacy_workbook": "predict.xls is retained as supplied source only; no displacement or driver is transferred from its 32-epoch rows.",
+  "quality_note": "Archived original project: ESBAS output coherence threshold 0.75; upstream SBAS unwrapping threshold 0.15; 0.25 is coregistration cross-correlation. These are different quantities. No additional post-hoc coherence cutoff."
+}
